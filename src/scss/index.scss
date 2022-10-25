@@ -1,4 +1,16 @@
 @import '_reset';
 @import '_header';
 
+body{
+	font-family: 'Gothic A1';
+	font-style: normal;
+	font-weight: 400;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+}
 
+.main{
+	flex: 1 1 auto;
+}
