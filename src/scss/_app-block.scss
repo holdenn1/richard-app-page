@@ -1,0 +1,32 @@
+.background-second-block{
+	height: 957px;
+	background: #1B1B1B;
+	border-radius: 0px;
+	.text-app-block{
+		max-width: 700px;
+		min-height: 221px;
+		margin: 0 auto;
+		padding-top: 80px;
+		.text-app-block__title{
+			text-align: center;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: #A8A8A8;
+			padding-bottom: 30px;
+		}
+		.text-app-block__description{
+			font-size: 38px;
+			line-height: 48px;
+			text-align: center;
+			color: #FFFFFF;
+			padding: 0 15px;
+		}
+	}
+	.app-img-block{
+		display: flex;	
+		justify-content: center;
+		img{
+			display: inline-block;
+		}
+	}
+}
