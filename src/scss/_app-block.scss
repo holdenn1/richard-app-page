@@ -1,32 +1,41 @@
 .background-second-block{
-	height: 957px;
 	background: #1B1B1B;
-	border-radius: 0px;
+	width: 100%;
+	max-height: 957px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.app-block{
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px;
 	.text-app-block{
 		max-width: 700px;
-		min-height: 221px;
+		height: 221px;
+		display: flex;
+		flex-direction: column;
 		margin: 0 auto;
-		padding-top: 80px;
+		padding-top: 90px;
 		.text-app-block__title{
+			font-size: 12px;
+			line-height: 20px;
 			text-align: center;
 			letter-spacing: 2px;
 			text-transform: uppercase;
+			padding: 20px 0 30px;
 			color: #A8A8A8;
-			padding-bottom: 30px;
 		}
 		.text-app-block__description{
 			font-size: 38px;
 			line-height: 48px;
 			text-align: center;
 			color: #FFFFFF;
-			padding: 0 15px;
 		}
 	}
-	.app-img-block{
-		display: flex;	
-		justify-content: center;
-		img{
+	img{
 			display: inline-block;
+			max-width: 1200px;
+			width: 100%;
 		}
-	}
 }
