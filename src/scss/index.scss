@@ -2,6 +2,7 @@
 @import '_header';
 @import '_title';
 @import '_app-block';
+@import '_dishes';
 
 body{
 	font-family: 'Gothic A1';
@@ -28,5 +29,6 @@ body{
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
