@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  height: 242px;
+  background: #1b1b1b;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  nav {
+    padding: 0 15px;
+    .footer__list {
+      display: flex;
+      padding-top: 30px;
+      @media screen and (max-width: 590px) {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      a {
+        font-size: 12px;
+        line-height: 20px;
+        color: #6b6b6b;
+        text-decoration: none;
+        margin: 0 15px;
+        &:hover {
+          border-bottom: 1px solid #6b6b6b;
+        }
+      }
+    }
+  }
+}

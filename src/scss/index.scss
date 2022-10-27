@@ -7,32 +7,40 @@
 @import '_about-us';
 @import '_our-dishes';
 @import '_review-block';
+@import '_download-block';
+@import '_subscribe';
+@import '_footer';
 
-body{
-	font-family: 'Gothic A1';
-	font-style: normal;
-	font-weight: 400;
-	color: #FFFFFF;
+body {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
 }
 
-.wrapper{
-	display: flex;
-	flex-direction: column;
+.wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
-.main{
-	flex: 1 1 auto;
+.main {
+  flex: 1 1 auto;
 }
-.background-first-block{
-	background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-	width: 100%;
-	height: 800px;
+.background-first-block {
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+  width: 100%;
+  height: 800px;
 }
 
-.container{
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 15px;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-

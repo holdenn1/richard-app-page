@@ -1,53 +1,51 @@
-.dishes-block-app__item{
-	display: flex;
-	justify-content: space-around;
-	padding: 80px 0;
-	.dishes-block-app__text{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		.dishes-block-app__description-text{
-			font-size: 12px;
-			line-height: 20px;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			color: #A8A8A8;
-		}
-		.dishes-block-app__title{
-			font-size: 38px;
-			line-height: 48px;
-			color: #000000;
-			padding: 16px 0;
-		}
-		.dishes-block-app__description{
-			font-size: 16px;
-			line-height: 30px;
-			color: #6B6B6B;
-			max-width: 306px;
-		}
-	}
-	.dishes-block-app__img{
-		max-width: 350px;
-		width: 100%;
-	}
+.dishes-block-app__item {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+  .dishes-block-app__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .dishes-block-app__description-text {
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #a8a8a8;
+    }
+    .dishes-block-app__title {
+      font-size: 38px;
+      line-height: 48px;
+      color: #000000;
+      padding: 16px 0;
+    }
+    .dishes-block-app__description {
+      font-size: 16px;
+      line-height: 30px;
+      color: #6b6b6b;
+      max-width: 306px;
+    }
+  }
+  .dishes-block-app__img {
+    max-width: 350px;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:1024px){
-
-	.dishes-block-app__item{
-		flex-direction: column;
-		align-items: center;
-		.dishes-block-app__text{
-			text-align: center;
-			.dishes-block-app__description{
-				max-width: 500px;
-				padding-bottom: 50px;
-			}
-		}
-	}
-	.dishes-midle{
-		flex-direction: column-reverse;
-		padding: 0;
-	}
-
+@media screen and (max-width: 1024px) {
+  .dishes-block-app__item {
+    flex-direction: column;
+    align-items: center;
+    .dishes-block-app__text {
+      text-align: center;
+      .dishes-block-app__description {
+        max-width: 500px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+  .dishes-midle {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
 }
