@@ -425,7 +425,6 @@ table {
 .adventege-item .adventege-item__container {
   max-width: 400px;
   width: 100%;
-  padding: 0 15px;
 }
 .adventege-item .adventege-item__container img {
   display: block;
@@ -543,7 +542,7 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 160px;
+  padding: 160px 15px;
 }
 .review-block img {
   padding-bottom: 65px;
@@ -555,7 +554,6 @@ table {
   color: #6b6b6b;
   max-width: 700px;
   width: 100%;
-  padding: 0 15px;
 }
 .review-block .review-block__row {
   display: flex;
@@ -639,6 +637,14 @@ table {
 .download-app .download-app__container .download-app__btn .download-app__touch:hover {
   background: #fc0a7e;
   border: none;
+}
+
+@media screen and (max-width: 460px) {
+  .download-app__btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .subscribe {
@@ -768,5 +774,4 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
 }
